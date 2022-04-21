@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Space Mono", monospace;
 }
 body {
   background-color: rgb(22, 22, 22);
@@ -53,3 +54,42 @@ hr {
   box-shadow: 0px 0px 10px #aaa;
   margin: 0px 25px 0px 20px;
 }
+
+/* main */
+/* cards */
+
+.card hr {
+  box-shadow: 0px 0px 5px #aaa;
+  margin: 0px 25px 0px 20px;
+  
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 25px 20px 20px;
+}
+
+.card {
+  font-size: 18px;
+  background-color: black;
+  color: #aaa;
+  margin: 10px;
+  width: calc(25% - 22px);
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 5px #aaa;
+}
+
+.card__text, .card__title, .card__img {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
